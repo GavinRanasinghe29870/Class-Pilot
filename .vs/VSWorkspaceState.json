@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CreateClass(AdminPannel)",
-    "\\CreateClass(AdminPannel)\\CreateClass(AdminPannel)"
+    "\\Class Pilot\\Class Pilot",
+    "\\CreateClass(AdminPannel)"
   ],
   "PreviewInSolutionExplorer": false
 }
