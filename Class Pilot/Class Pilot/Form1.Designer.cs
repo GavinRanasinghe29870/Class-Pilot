@@ -31,15 +31,15 @@
             components = new System.ComponentModel.Container();
             panel1 = new Panel();
             label1 = new Label();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button9 = new Button();
-            button10 = new Button();
+            btnDashboard = new Button();
+            btnAttendence = new Button();
+            btnCreateClass = new Button();
+            btnStudentRegister = new Button();
+            btnPayment = new Button();
+            btnReports = new Button();
+            btnTeacherEdit = new Button();
+            btnClassEdit = new Button();
+            btnTute = new Button();
             flowLayoutPanel1 = new FlowLayoutPanel();
             StudentEditMenu = new FlowLayoutPanel();
             btnStudentEdit = new Button();
@@ -72,165 +72,165 @@
             label1.TabIndex = 0;
             label1.Text = "Attendence";
             // 
-            // button1
+            // btnDashboard
             // 
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.ForeColor = Color.White;
-            button1.Image = Properties.Resources.dashboard__1_;
-            button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(3, 100);
-            button1.Name = "button1";
-            button1.Padding = new Padding(75, 0, 10, 0);
-            button1.Size = new Size(304, 59);
-            button1.TabIndex = 1;
-            button1.Text = "Dashboard";
-            button1.UseVisualStyleBackColor = false;
+            btnDashboard.FlatAppearance.BorderSize = 0;
+            btnDashboard.FlatStyle = FlatStyle.Flat;
+            btnDashboard.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnDashboard.ForeColor = Color.White;
+            btnDashboard.Image = Properties.Resources.dashboard__1_;
+            btnDashboard.ImageAlign = ContentAlignment.MiddleLeft;
+            btnDashboard.Location = new Point(3, 100);
+            btnDashboard.Name = "btnDashboard";
+            btnDashboard.Padding = new Padding(75, 0, 10, 0);
+            btnDashboard.Size = new Size(304, 59);
+            btnDashboard.TabIndex = 1;
+            btnDashboard.Text = "Dashboard";
+            btnDashboard.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnAttendence
             // 
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.ForeColor = Color.White;
-            button2.Image = Properties.Resources.check;
-            button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(3, 165);
-            button2.Name = "button2";
-            button2.Padding = new Padding(75, 0, 10, 0);
-            button2.Size = new Size(304, 59);
-            button2.TabIndex = 2;
-            button2.Text = "Attendence";
-            button2.UseVisualStyleBackColor = false;
+            btnAttendence.FlatAppearance.BorderSize = 0;
+            btnAttendence.FlatStyle = FlatStyle.Flat;
+            btnAttendence.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnAttendence.ForeColor = Color.White;
+            btnAttendence.Image = Properties.Resources.check;
+            btnAttendence.ImageAlign = ContentAlignment.MiddleLeft;
+            btnAttendence.Location = new Point(3, 165);
+            btnAttendence.Name = "btnAttendence";
+            btnAttendence.Padding = new Padding(75, 0, 10, 0);
+            btnAttendence.Size = new Size(304, 59);
+            btnAttendence.TabIndex = 2;
+            btnAttendence.Text = "Attendence";
+            btnAttendence.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnCreateClass
             // 
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.ForeColor = Color.White;
-            button3.Image = Properties.Resources.training;
-            button3.ImageAlign = ContentAlignment.MiddleLeft;
-            button3.Location = new Point(3, 230);
-            button3.Name = "button3";
-            button3.Padding = new Padding(75, 0, 10, 0);
-            button3.Size = new Size(304, 59);
-            button3.TabIndex = 3;
-            button3.Text = "Create Class";
-            button3.UseVisualStyleBackColor = false;
+            btnCreateClass.FlatAppearance.BorderSize = 0;
+            btnCreateClass.FlatStyle = FlatStyle.Flat;
+            btnCreateClass.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnCreateClass.ForeColor = Color.White;
+            btnCreateClass.Image = Properties.Resources.training;
+            btnCreateClass.ImageAlign = ContentAlignment.MiddleLeft;
+            btnCreateClass.Location = new Point(3, 230);
+            btnCreateClass.Name = "btnCreateClass";
+            btnCreateClass.Padding = new Padding(75, 0, 10, 0);
+            btnCreateClass.Size = new Size(304, 59);
+            btnCreateClass.TabIndex = 3;
+            btnCreateClass.Text = "Create Class";
+            btnCreateClass.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnStudentRegister
             // 
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button4.ForeColor = Color.White;
-            button4.Image = Properties.Resources.registered;
-            button4.ImageAlign = ContentAlignment.MiddleLeft;
-            button4.Location = new Point(3, 295);
-            button4.Name = "button4";
-            button4.Padding = new Padding(75, 0, 10, 0);
-            button4.Size = new Size(304, 59);
-            button4.TabIndex = 4;
-            button4.Text = "Student Register";
-            button4.TextAlign = ContentAlignment.MiddleRight;
-            button4.UseVisualStyleBackColor = false;
+            btnStudentRegister.FlatAppearance.BorderSize = 0;
+            btnStudentRegister.FlatStyle = FlatStyle.Flat;
+            btnStudentRegister.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnStudentRegister.ForeColor = Color.White;
+            btnStudentRegister.Image = Properties.Resources.registered;
+            btnStudentRegister.ImageAlign = ContentAlignment.MiddleLeft;
+            btnStudentRegister.Location = new Point(3, 295);
+            btnStudentRegister.Name = "btnStudentRegister";
+            btnStudentRegister.Padding = new Padding(75, 0, 10, 0);
+            btnStudentRegister.Size = new Size(304, 59);
+            btnStudentRegister.TabIndex = 4;
+            btnStudentRegister.Text = "Student Register";
+            btnStudentRegister.TextAlign = ContentAlignment.MiddleRight;
+            btnStudentRegister.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnPayment
             // 
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button5.ForeColor = Color.White;
-            button5.Image = Properties.Resources.payment_method;
-            button5.ImageAlign = ContentAlignment.MiddleLeft;
-            button5.Location = new Point(3, 360);
-            button5.Name = "button5";
-            button5.Padding = new Padding(75, 0, 10, 0);
-            button5.Size = new Size(304, 59);
-            button5.TabIndex = 5;
-            button5.Text = "Payments";
-            button5.UseVisualStyleBackColor = false;
+            btnPayment.FlatAppearance.BorderSize = 0;
+            btnPayment.FlatStyle = FlatStyle.Flat;
+            btnPayment.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnPayment.ForeColor = Color.White;
+            btnPayment.Image = Properties.Resources.payment_method;
+            btnPayment.ImageAlign = ContentAlignment.MiddleLeft;
+            btnPayment.Location = new Point(3, 360);
+            btnPayment.Name = "btnPayment";
+            btnPayment.Padding = new Padding(75, 0, 10, 0);
+            btnPayment.Size = new Size(304, 59);
+            btnPayment.TabIndex = 5;
+            btnPayment.Text = "Payments";
+            btnPayment.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // btnReports
             // 
-            button6.FlatAppearance.BorderSize = 0;
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button6.ForeColor = Color.White;
-            button6.Image = Properties.Resources.report;
-            button6.ImageAlign = ContentAlignment.MiddleLeft;
-            button6.Location = new Point(3, 425);
-            button6.Name = "button6";
-            button6.Padding = new Padding(75, 0, 10, 0);
-            button6.Size = new Size(304, 59);
-            button6.TabIndex = 6;
-            button6.Text = "Reports";
-            button6.UseVisualStyleBackColor = false;
+            btnReports.FlatAppearance.BorderSize = 0;
+            btnReports.FlatStyle = FlatStyle.Flat;
+            btnReports.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnReports.ForeColor = Color.White;
+            btnReports.Image = Properties.Resources.report;
+            btnReports.ImageAlign = ContentAlignment.MiddleLeft;
+            btnReports.Location = new Point(3, 425);
+            btnReports.Name = "btnReports";
+            btnReports.Padding = new Padding(75, 0, 10, 0);
+            btnReports.Size = new Size(304, 59);
+            btnReports.TabIndex = 6;
+            btnReports.Text = "Reports";
+            btnReports.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // btnTeacherEdit
             // 
-            button7.FlatAppearance.BorderSize = 0;
-            button7.FlatStyle = FlatStyle.Flat;
-            button7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button7.ForeColor = Color.White;
-            button7.Image = Properties.Resources.teacher;
-            button7.ImageAlign = ContentAlignment.MiddleLeft;
-            button7.Location = new Point(3, 490);
-            button7.Name = "button7";
-            button7.Padding = new Padding(75, 0, 10, 0);
-            button7.Size = new Size(304, 59);
-            button7.TabIndex = 7;
-            button7.Text = "Teacher Edit";
-            button7.UseVisualStyleBackColor = false;
+            btnTeacherEdit.FlatAppearance.BorderSize = 0;
+            btnTeacherEdit.FlatStyle = FlatStyle.Flat;
+            btnTeacherEdit.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnTeacherEdit.ForeColor = Color.White;
+            btnTeacherEdit.Image = Properties.Resources.teacher;
+            btnTeacherEdit.ImageAlign = ContentAlignment.MiddleLeft;
+            btnTeacherEdit.Location = new Point(3, 490);
+            btnTeacherEdit.Name = "btnTeacherEdit";
+            btnTeacherEdit.Padding = new Padding(75, 0, 10, 0);
+            btnTeacherEdit.Size = new Size(304, 59);
+            btnTeacherEdit.TabIndex = 7;
+            btnTeacherEdit.Text = "Teacher Edit";
+            btnTeacherEdit.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // btnClassEdit
             // 
-            button9.FlatAppearance.BorderSize = 0;
-            button9.FlatStyle = FlatStyle.Flat;
-            button9.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button9.ForeColor = Color.White;
-            button9.Image = Properties.Resources.class_notes;
-            button9.ImageAlign = ContentAlignment.MiddleLeft;
-            button9.Location = new Point(3, 626);
-            button9.Name = "button9";
-            button9.Padding = new Padding(75, 0, 10, 0);
-            button9.Size = new Size(304, 59);
-            button9.TabIndex = 9;
-            button9.Text = "Class Edit";
-            button9.UseVisualStyleBackColor = false;
+            btnClassEdit.FlatAppearance.BorderSize = 0;
+            btnClassEdit.FlatStyle = FlatStyle.Flat;
+            btnClassEdit.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnClassEdit.ForeColor = Color.White;
+            btnClassEdit.Image = Properties.Resources.class_notes;
+            btnClassEdit.ImageAlign = ContentAlignment.MiddleLeft;
+            btnClassEdit.Location = new Point(3, 626);
+            btnClassEdit.Name = "btnClassEdit";
+            btnClassEdit.Padding = new Padding(75, 0, 10, 0);
+            btnClassEdit.Size = new Size(304, 59);
+            btnClassEdit.TabIndex = 9;
+            btnClassEdit.Text = "Class Edit";
+            btnClassEdit.UseVisualStyleBackColor = false;
             // 
-            // button10
+            // btnTute
             // 
-            button10.FlatAppearance.BorderSize = 0;
-            button10.FlatStyle = FlatStyle.Flat;
-            button10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button10.ForeColor = Color.White;
-            button10.Image = Properties.Resources.paper_stack;
-            button10.ImageAlign = ContentAlignment.MiddleLeft;
-            button10.Location = new Point(3, 691);
-            button10.Name = "button10";
-            button10.Padding = new Padding(75, 0, 10, 0);
-            button10.Size = new Size(304, 59);
-            button10.TabIndex = 10;
-            button10.Text = "Tute/Exam";
-            button10.UseVisualStyleBackColor = false;
+            btnTute.FlatAppearance.BorderSize = 0;
+            btnTute.FlatStyle = FlatStyle.Flat;
+            btnTute.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnTute.ForeColor = Color.White;
+            btnTute.Image = Properties.Resources.paper_stack;
+            btnTute.ImageAlign = ContentAlignment.MiddleLeft;
+            btnTute.Location = new Point(3, 691);
+            btnTute.Name = "btnTute";
+            btnTute.Padding = new Padding(75, 0, 10, 0);
+            btnTute.Size = new Size(304, 59);
+            btnTute.TabIndex = 10;
+            btnTute.Text = "Tute/Exam";
+            btnTute.UseVisualStyleBackColor = false;
             // 
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.BackColor = Color.FromArgb(77, 83, 113);
             flowLayoutPanel1.Controls.Add(panel1);
-            flowLayoutPanel1.Controls.Add(button1);
-            flowLayoutPanel1.Controls.Add(button2);
-            flowLayoutPanel1.Controls.Add(button3);
-            flowLayoutPanel1.Controls.Add(button4);
-            flowLayoutPanel1.Controls.Add(button5);
-            flowLayoutPanel1.Controls.Add(button6);
-            flowLayoutPanel1.Controls.Add(button7);
+            flowLayoutPanel1.Controls.Add(btnDashboard);
+            flowLayoutPanel1.Controls.Add(btnAttendence);
+            flowLayoutPanel1.Controls.Add(btnCreateClass);
+            flowLayoutPanel1.Controls.Add(btnStudentRegister);
+            flowLayoutPanel1.Controls.Add(btnPayment);
+            flowLayoutPanel1.Controls.Add(btnReports);
+            flowLayoutPanel1.Controls.Add(btnTeacherEdit);
             flowLayoutPanel1.Controls.Add(StudentEditMenu);
-            flowLayoutPanel1.Controls.Add(button9);
-            flowLayoutPanel1.Controls.Add(button10);
+            flowLayoutPanel1.Controls.Add(btnClassEdit);
+            flowLayoutPanel1.Controls.Add(btnTute);
             flowLayoutPanel1.Dock = DockStyle.Left;
             flowLayoutPanel1.Location = new Point(0, 0);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -347,15 +347,15 @@
         #endregion
         private Panel panel1;
         private Label label1;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button9;
-        private Button button10;
+        private Button btnDashboard;
+        private Button btnAttendence;
+        private Button btnCreateClass;
+        private Button btnStudentRegister;
+        private Button btnPayment;
+        private Button btnReports;
+        private Button btnTeacherEdit;
+        private Button btnClassEdit;
+        private Button btnTute;
         private FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Timer StuEditMenuTimer;
         private Button button13;
