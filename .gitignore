@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CreateClass(AdminPannel)/.vs/CreateClass(AdminPannel)/FileContentIndex/fabfb9a0-ed98-4bfe-8d51-d09543ad5c1c.vsidx
+/.vs/slnx.sqlite
+/CreateClass(AdminPannel)/.vs/CreateClass(AdminPannel)/FileContentIndex/952c5dc1-5f45-4a77-aea0-8ad76d59e661.vsidx
+/CreateClass(AdminPannel)/CreateClass(AdminPannel)/obj/Debug/DesignTimeResolveAssemblyReferences.cache
