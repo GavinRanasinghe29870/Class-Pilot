@@ -52,7 +52,7 @@
             this.TUIDLbl = new System.Windows.Forms.Label();
             this.CLIDLbl2 = new System.Windows.Forms.Label();
             this.CLIDLbl = new System.Windows.Forms.Label();
-            this.userControl11 = new CreateClass_AdminPannel_.UserControl1();
+            this.userControl12 = new CreateClass_AdminPannel_.UserControl1();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).BeginInit();
             this.kryptonPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel2)).BeginInit();
@@ -370,13 +370,13 @@
             this.CLIDLbl.TabIndex = 0;
             this.CLIDLbl.Text = "Class ID:";
             // 
-            // userControl11
+            // userControl12
             // 
-            this.userControl11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.userControl11.Location = new System.Drawing.Point(0, 122);
-            this.userControl11.Name = "userControl11";
-            this.userControl11.Size = new System.Drawing.Size(342, 776);
-            this.userControl11.TabIndex = 3;
+            this.userControl12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.userControl12.Location = new System.Drawing.Point(0, 122);
+            this.userControl12.Name = "userControl12";
+            this.userControl12.Size = new System.Drawing.Size(342, 776);
+            this.userControl12.TabIndex = 4;
             // 
             // Form1
             // 
@@ -384,7 +384,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1534, 902);
-            this.Controls.Add(this.userControl11);
+            this.Controls.Add(this.userControl12);
             this.Controls.Add(this.kryptonPanel2);
             this.Controls.Add(this.kryptonPanel1);
             this.Name = "Form1";
@@ -426,7 +426,7 @@
         private System.Windows.Forms.Button SearchBtn;
         private System.Windows.Forms.Button CreateClassBtn;
         private System.Windows.Forms.Button ClearBtn;
-        private UserControl1 userControl11;
+        private UserControl1 userControl12;
     }
 }
 
