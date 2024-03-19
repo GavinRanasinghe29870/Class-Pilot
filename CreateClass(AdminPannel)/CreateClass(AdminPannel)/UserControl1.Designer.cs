@@ -37,6 +37,7 @@
             this.TEBtn = new System.Windows.Forms.Button();
             this.SEBtn = new System.Windows.Forms.Button();
             this.CEBtn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // DBBtn
@@ -131,10 +132,22 @@
             this.CEBtn.Text = "CLASS EDIT";
             this.CEBtn.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(3, 579);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(336, 58);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Tute/Exame Paper Submission";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // UserControl1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.CEBtn);
             this.Controls.Add(this.SEBtn);
             this.Controls.Add(this.TEBtn);
@@ -161,5 +174,6 @@
         private System.Windows.Forms.Button TEBtn;
         private System.Windows.Forms.Button SEBtn;
         private System.Windows.Forms.Button CEBtn;
+        private System.Windows.Forms.Button button1;
     }
 }
