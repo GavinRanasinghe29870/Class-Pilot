@@ -90,6 +90,7 @@
             // 
             // btnAttendence
             // 
+            btnAttendence.BackColor = Color.FromArgb(92, 99, 145);
             btnAttendence.FlatAppearance.BorderSize = 0;
             btnAttendence.FlatStyle = FlatStyle.Flat;
             btnAttendence.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -234,7 +235,7 @@
             flowLayoutPanel1.Dock = DockStyle.Left;
             flowLayoutPanel1.Location = new Point(0, 0);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(307, 909);
+            flowLayoutPanel1.Size = new Size(307, 782);
             flowLayoutPanel1.TabIndex = 0;
             // 
             // StudentEditMenu
@@ -332,7 +333,7 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(63, 68, 93);
-            ClientSize = new Size(1418, 909);
+            ClientSize = new Size(1418, 782);
             Controls.Add(flowLayoutPanel1);
             Name = "Form1";
             Text = "Form1";

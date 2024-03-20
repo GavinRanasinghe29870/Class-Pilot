@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Class Pilot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b89c7e958854401d325f2114048530782ddff1f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58d64f6b35fad5e5ea2b6893b58c4e7344b7fbde")]
 [assembly: System.Reflection.AssemblyProductAttribute("Class Pilot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Class Pilot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
