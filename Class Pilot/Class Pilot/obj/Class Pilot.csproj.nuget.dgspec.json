@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joshu\\source\\repos\\Class-Pilot\\Class Pilot\\Class Pilot\\Class Pilot.csproj": {}
+    "C:\\Users\\gavin\\source\\repos\\Class-Pilot (Official)\\Class Pilot\\Class Pilot\\Class Pilot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joshu\\source\\repos\\Class-Pilot\\Class Pilot\\Class Pilot\\Class Pilot.csproj": {
+    "C:\\Users\\gavin\\source\\repos\\Class-Pilot (Official)\\Class Pilot\\Class Pilot\\Class Pilot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joshu\\source\\repos\\Class-Pilot\\Class Pilot\\Class Pilot\\Class Pilot.csproj",
+        "projectUniqueName": "C:\\Users\\gavin\\source\\repos\\Class-Pilot (Official)\\Class Pilot\\Class Pilot\\Class Pilot.csproj",
         "projectName": "Class Pilot",
-        "projectPath": "C:\\Users\\joshu\\source\\repos\\Class-Pilot\\Class Pilot\\Class Pilot\\Class Pilot.csproj",
-        "packagesPath": "C:\\Users\\joshu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joshu\\source\\repos\\Class-Pilot\\Class Pilot\\Class Pilot\\obj\\",
+        "projectPath": "C:\\Users\\gavin\\source\\repos\\Class-Pilot (Official)\\Class Pilot\\Class Pilot\\Class Pilot.csproj",
+        "packagesPath": "C:\\Users\\gavin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gavin\\source\\repos\\Class-Pilot (Official)\\Class Pilot\\Class Pilot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\joshu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gavin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
